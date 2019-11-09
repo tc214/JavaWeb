@@ -16,3 +16,7 @@ public class MainController {
     }
 
 }
+/**
+ * @Controller和@RestController区别:
+ * 前者返回html，后者返回json数据
+ */
