@@ -11,14 +11,14 @@ public class TestController {
 
     /**
      * 首页
+     *
      * @return
      */
     @RequestMapping("/index")
     public String index() {
+        System.out.println("---------TestController executed--------");
         return "index";  // 访问http://localhost:8088/home/index 会加载index.jsp页面
     }
-
-
 
 
 }

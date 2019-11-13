@@ -22,4 +22,16 @@
 
     <!-- 自动扫描装配 -->
     <context:component-scan base-package="org.tc.controller"/>
+
+    <mvc:interceptors>
+        <bean name="baseInterceptor" class="org.tc.interceptor.BaseInterceptor"/>
+
+        <mvc:interceptor>
+            <!-- 对/index进行拦截 -->
+            <mvc:mapping path="/home/index"/>
+            <!-- 特定请求的拦截器只能有一个 -->
+            <bean class="org.tc.interceptor.TestInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>
