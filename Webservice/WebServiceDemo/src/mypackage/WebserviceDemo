@@ -1,0 +1,26 @@
+<html>
+<head><title>
+Web 服务
+</title></head>
+<body>
+<h1>Web 服务</h1>
+<table width='100%' border='1'>
+<tr>
+<td>
+端点
+</td>
+<td>
+信息
+</td>
+</tr>
+<tr>
+<td>
+<table border="0"><tr><td>服务名:</td><td>{http://svc.tc.org/}WsDemoImplService</td></tr><tr><td>端口名:</td><td>{http://svc.tc.org/}WsDemoImplPort</td></tr></table>
+</td>
+<td>
+<table border="0"><tr><td>地址:</td><td>http://localhost:8080/WebserviceDemo</td></tr><tr><td>WSDL:</td><td><a href="http://localhost:8080/WebserviceDemo?wsdl">http://localhost:8080/WebserviceDemo?wsdl</a></td></tr><tr><td>实现类:</td><td>org.tc.svc.WsDemoImpl</td></tr></table>
+</td>
+</tr>
+</table>
+</body>
+</html>

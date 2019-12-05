@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Body>
+        <ns2:testWebServiceResponse xmlns:ns2="http://tc.org/">
+            <return>服务器：我转发信息给你</return>
+        </ns2:testWebServiceResponse>
+    </S:Body>
+</S:Envelope>
